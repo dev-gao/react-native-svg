@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source_files     = 'ios/**/*.{h,m}'
   s.requires_arc     = true
   s.platforms        = { :ios => "8.0", :tvos => "9.2" }
-  s.dependency         'React'  
+  s.dependency       'LDReactNative'
 end
